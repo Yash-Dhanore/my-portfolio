@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Dhanore | Shopify Architect & AI Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#hustle">My Hustle</a></li>
+                <li><a href="#showcases">Showcases</a></li>
+                <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero centered-hero">
+        <div class="glow-point"></div>
+        <div class="hero-content">
+            <span class="badge reveal">ESTABLISHED 2024</span>
+            <h1 class="reveal centered-name title-garamond">
+                <span id="typing-text"></span><span id="cursor">|</span>
+            </h1>
+            <p class="hero-sub reveal">Architecting <span class="text-cyan">Shopify Stores</span>, <span class="text-purple">B2B SaaS</span>, and AI Automations.</p>
+            <div class="hero-btns reveal">
+                <a href="#showcases" class="btn-main">Explore My Work</a>
+                <a href="https://www.linkedin.com/in/yash-dhanore-" target="_blank" class="btn-outline-hero"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+        
+        <div class="floating-icons">
+            <img src="images/html icon.png" class="f-icon icon-1" alt="HTML">
+            <img src="images/css icon.png" class="f-icon icon-2" alt="CSS">
+            <img src="images/Shopify icon.png" class="f-icon icon-3" alt="Shopify">
+            <img src="images/github icon.png" class="f-icon icon-4" alt="GitHub">
+        </div>
+    </header>
+
+    <section id="hustle" class="hustle-section">
+        <h2 class="section-heading reveal">My <span class="text-cyan">Hustle</span></h2>
+        <div class="timeline">
+            <div class="timeline-item left reveal">
+                <div class="timeline-content card-glow premium-hustle-card">
+                    <div class="card-header large-heading-with-logo fiverr-header">
+                        <img src="images/fiverr icon.png" class="hustle-logo" alt="Fiverr">
+                        <h3 class="hustle-title">Fiverr Success</h3>
+                    </div>
+                    <p>Delivered 7+ high-conversion e-commerce projects for global clients. Specialized in Liquid customization and performance engineering.</p>
+                    <button class="btn-case-study" onclick="openModal('modal-fiverr')"><i class="fas fa-file-alt"></i> VIEW CASE STUDY</button>
+                </div>
+            </div>
+
+            <div class="timeline-item right reveal">
+                <div class="timeline-content card-glow premium-hustle-card">
+                    <div class="card-header large-heading-with-logo">
+                        <img src="images/Shopify icon.png" class="hustle-logo" alt="Shopify">
+                        <h3 class="hustle-title">Shopify Expert</h3>
+                    </div>
+                    <p>Expert in advanced Shopify store architecture, all theme customization, performance tuning, and custom solution building.</p>
+                    <button class="btn-case-study" onclick="openModal('modal-shopify')"><i class="fas fa-file-alt"></i> VIEW CASE STUDY</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="showcases" class="showcase-section">
+        <h2 class="section-heading reveal">Featured <span class="text-purple">Showcases</span></h2>
+        <div class="project-grid">
+            <div class="project-card reveal">
+                <div class="img-container">
+                    <img src="images/project image(Stellenjewelry).png" alt="Stellen Jewelry Store">
+                </div>
+                <div class="project-info">
+                    <span class="category">E-COMMERCE ARCHITECTURE</span>
+                    <h3>Stellen Jewelry</h3>
+                    <p>A premium Shopify store with a focus on high-end typography (Cormorant Garamond).</p>
+                    <a href="https://weedophobic.myshopify.com" target="_blank" class="btn-small">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="img-container">
+                    <img src="images/ai-bot.png" alt="Glassmorphic AI Bot">
+                </div>
+                <div class="project-info">
+                    <span class="category">B2B SAAS SOLUTION</span>
+                    <h3>Glassmorphic AI Bot</h3>
+                    <p>A multi-tenant AI support chatbot built to automate customer service for corporate clients.</p>
+                    <a href="https://github.com/Yash-1001/chat_application" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub Repo</a>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="img-container">
+                    <img src="images/project image(fiver).png" alt="Fiverr Success Projects">
+                </div>
+                <div class="project-info">
+                    <span class="category">FREELANCE TRACK RECORD</span>
+                    <h3>Fiverr Portfolio</h3>
+                    <p>A collection of high-performance landing pages and Shopify stores built for international businesses.</p>
+                    <a href="https://www.fiverr.com/s/2KVZkdX" target="_blank" class="btn-small">Fiverr Profile <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="arsenal-section">
+        <h2 class="section-heading reveal">Technical <span class="text-cyan">Arsenal</span></h2>
+        <div class="arsenal-grid reveal">
+            <div class="tool-box"><img src="images/html icon.png" class="arsenal-icon" alt=""> HTML5</div>
+            <div class="tool-box"><img src="images/css icon.png" class="arsenal-icon" alt=""> CSS3</div>
+            <div class="tool-box"><i class="fab fa-js" style="color:#f7df1e"></i> JS</div>
+            <div class="tool-box"><i class="fab fa-shopify" style="color:#95bf47"></i> Liquid</div>
+            <div class="tool-box"><img src="images/github icon.png" class="arsenal-icon" alt=""> GitHub</div>
+            <div class="tool-box"><i class="fas fa-bolt" style="color:#fff"></i> Speed Opt</div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2 class="reveal centered-name title-garamond">Ready to <span class="name-gradient">collaborate?</span></h2>
+        <div class="footer-btns reveal">
+            <a href="https://www.linkedin.com/in/yash-dhanore-" target="_blank" class="footer-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="mailto:Yashdhanore03@gmail.com" class="footer-link"><i class="fas fa-envelope"></i> Email</a>
+        </div>
+        <p class="copyright">© 2026 Yash Dhanore. Built for Digital Excellence.</p>
+    </footer>
+
+    <div id="modal-fiverr" class="modal-overlay">
+        <div class="modal-content card-glow">
+            <span class="close-modal" onclick="closeModal('modal-fiverr')">&times;</span>
+            <h2 class="modal-title">Case Study: Fiverr Success ⭐</h2>
+            <h3 class="text-cyan">High-Performance E-commerce Development</h3>
+            
+            <div class="modal-body">
+                <p><strong>Title:</strong> Delivering 5-Star Excellence for Global E-commerce Brands</p>
+                <p><strong>Subtitle:</strong> A journey of developing 7 high-performance custom Shopify solutions.</p>
+                
+                <h4 class="text-purple">Overview</h4>
+                <p>The core focus of this project series was to build online stores for global clients that aren't just visually appealing, but are high-speed and sales-driven. I worked across diverse niches (Fashion, Tech, and Lifestyle) on 7 different Shopify stores, ensuring every unique client requirement was met with precision.</p>
+                
+                <h4 class="text-purple">The Challenge</h4>
+                <ul>
+                    <li><strong>Performance Issues:</strong> Most generic themes are heavy and slow, leading to high bounce rates.</li>
+                    <li><strong>User Experience (UX):</strong> Standard layouts often fail to guide the customer effectively, resulting in low conversion rates.</li>
+                    <li><strong>Deep Customization:</strong> Clients required specific features and unique layouts that standard Shopify apps could not provide without bloating the site.</li>
+                </ul>
+                
+                <h4 class="text-purple">The Solution</h4>
+                <p>I utilized Custom Liquid Development to build bespoke sections from scratch, ensuring a clean and lightweight code structure.</p>
+                <ul>
+                    <li><strong>Optimization:</strong> Removed unnecessary third-party apps and wrote custom code to ensure page load times stayed under 2 seconds.</li>
+                    <li><strong>Conversion-Centric UX:</strong> Analyzed the user journey to simplify the path to purchase and created a seamless checkout experience.</li>
+                    <li><strong>Mobile-First Approach:</strong> Since 80% of traffic is mobile, I ensured every design was fully responsive and thumb-friendly.</li>
+                </ul>
+                
+                <h4 class="text-purple">The Results</h4>
+                <ul>
+                    <li><strong>Rating:</strong> Maintained a consistent 5.0-star feedback rating across all deliveries.</li>
+                    <li><strong>Speed:</strong> Achieved a 90+ score on Google PageSpeed Insights.</li>
+                    <li><strong>Sales Impact:</strong> Clients reported an average 25% increase in conversion rates within the first month of launch.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-shopify" class="modal-overlay">
+        <div class="modal-content card-glow">
+            <span class="close-modal" onclick="closeModal('modal-shopify')">&times;</span>
+            <h2 class="modal-title">Case Study: Shopify Expert</h2>
+            <h3 class="text-cyan">Advanced Architecture & All Theme Customization</h3>
+            
+            <div class="modal-body">
+                <p><strong>Title:</strong> Mastering Shopify Architecture & Advanced Technical Solutions</p>
+                <p><strong>Subtitle:</strong> Complex theme tuning and high-end technical architecture.</p>
+                
+                <h4 class="text-purple">Overview</h4>
+                <p>As a Shopify Expert, my role went beyond simple aesthetics. In this case study, I focused on the deep architecture of the platform, specifically mastering all theme customization (including Online Store 2.0 and legacy themes) and solving high-level technical hurdles for enterprise-level clients.</p>
+                
+                <h4 class="text-purple">The Challenge</h4>
+                <ul>
+                    <li><strong>Theme Limitations:</strong> Standard themes often lack complex functionalities like advanced product filtering, custom bundle builders, or multi-variant logic.</li>
+                    <li><strong>Scalability:</strong> The store needed to be designed to handle 10,000+ SKUs and massive traffic spikes without any lag or performance drops.</li>
+                </ul>
+                
+                <h4 class="text-purple">The Solution</h4>
+                <ul>
+                    <li><strong>Advanced Liquid Logic:</strong> Implemented complex backend logic using Liquid and JSON to create dynamic storefronts that remain lightning-fast.</li>
+                    <li><strong>Performance Engineering:</strong> Applied advanced techniques like image lazy-loading, CSS minification, and script prioritization to keep the architecture lean.</li>
+                    <li><strong>Custom Admin Tooling:</strong> Built custom sections and snippets that allowed store owners to manage their content easily without ever needing to touch the code.</li>
+                </ul>
+                
+                <h4 class="text-cyan">Technical Expertise Used</h4>
+                <ul>
+                    <li><strong>Liquid / JSON:</strong> For advanced theme templates and schema architecture.</li>
+                    <li><strong>JavaScript (Vanilla/Alpine):</strong> For dynamic features like AJAX carts and quick-view modals.</li>
+                    <li><strong>API Integration:</strong> Connecting third-party ERPs and inventory management systems.</li>
+                </ul>
+                
+                <h4 class="text-purple">The Results</h4>
+                <ul>
+                    <li><strong>Robust Scalability:</strong> Built an architecture capable of managing 10,000+ products seamlessly.</li>
+                    <li><strong>Client Satisfaction:</strong> Delivered a 100% bug-free environment with long-term technical support, establishing a reputation as a go-to expert for complex Shopify needs.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
